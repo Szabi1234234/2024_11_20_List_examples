@@ -5,3 +5,5 @@ Hozz létre egy listát számokkal: [10, 20, 5, 8, 15].
 
 
 # max függvény 
+szamok = [10, 20, 5, 8, 15]
+print(max(szamok))
