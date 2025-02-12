@@ -18,7 +18,8 @@ for honap in honapok:
 honap_index = 0
 
 for honap in honapok: 
-    print(f"{honap_index} {honap}")
+   # print(f"{honap_index} {honap}")
+   print(honap_index, honap)
     honap_index += 1
 
 # index felhasználása sorszámok megadásához:

@@ -1,0 +1,14 @@
+szamok = [2,5,4,8,9,11,10,12]
+print(szamok)
+oszthatoak=[]
+for szam in szamok:
+    if szam % 3 == 0:
+        oszthatoak.append(szam)
+print("van")
+print(f"a kovetkezo szamok osztatoak 3 al maradék nelkul:{oszthatoak}")
+
+for i in range(len(szamok)):
+    if szamok[i] % 3 == 0:
+        oszthatoak.append(szamok[i])
+print("van")
+print(f"a kovetkezo szamok osztatoak 3 al maradék nelkul:{oszthatoak}")

@@ -5,5 +5,14 @@ Hozz létre egy listát számokkal: [2, 4, 6, 8].
 szamok = [2, 4, 6, 8]
 szorzat = 1
 for szam in szamok:
-    szorzat = szorzat * szam
+    #szorzat = szorzat * szam
+    szorzat *= szam
 print(szorzat)
+
+
+
+
+
+
+
+

@@ -9,10 +9,6 @@ szamok = [5, 8, 12, 15, 22]
 hossz = 0
 for i in szamok:
     hossz = hossz + 1
-
-    
-   # print(szamok[i])
-   # i = i + 1
    
 print(f"Lista ekemi len ciklussal: {len(szamok)}")
 
